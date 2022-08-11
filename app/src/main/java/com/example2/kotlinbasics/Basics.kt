@@ -129,7 +129,14 @@ var r=ave (5 , 6)
     val ds = name ?:"jskdf"
     println(ds)
  //println(name!!.toLowerCase())
-
+    while (humdity=="humid")
+    {
+        humlevel-=5
+        println( "humidity decreased")
+        if (humlevel<60){
+            println( "it's comfy now")
+            humdity="comfy"}
+    }
 
 
 
